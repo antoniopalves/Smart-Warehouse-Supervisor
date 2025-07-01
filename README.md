@@ -38,6 +38,7 @@ The system includes logic for failure detection and management implemented in Pr
 - Install an MQTT broker (e.g., Mosquitto).
 - Node.js installed (for the web app if applicable).
 - A modern web browser.
+- Visual Studio (or equivalent) to run the C project.
 
 ### Steps
 
@@ -47,38 +48,30 @@ The system includes logic for failure detection and management implemented in Pr
 
 2. **Run the Prolog Components**
 
-   Load the Prolog files (`warehouse_config.pl`, `warehouse_dispatcher.pl`, `warehouse_monitoring.pl`) into your Prolog environment.
-
-   Example:
+   Load the Prolog files into your Prolog environment and start the system by running:
 
    ```prolog
-   ?- [kbase/warehouse_config].
-   ?- [kbase/warehouse_dispatcher].
-   ?- [kbase/warehouse_monitoring].
+   ?- start_all.
+3. **Run the C Project**
 
-Launch the Web Interface
+   Open the C project in Visual Studio and run it. This project interacts with the warehouse simulation and MQTT messages.
 
-Open serverApp/index.html in your web browser.
+4. Open the Web Interface
 
-Interact with the System
+   Open your browser and navigate to:
+      http://localhost
+   Here you can interact with the system using the provided controls and monitor statuses in real-time.
+   
+## MQTT Topics Used
 
-Use the provided buttons and keyboard controls to send commands.
+| Topic               | Purpose                      |
+|---------------------|-----------------------------|
+| `warehouse/command`  | Commands to control deployer |
+| `warehouse/status`   | Status updates from deployer |
+| `warehouse/failures` | Failure notifications        |
+| `warehouse/analytics`| Analytics data               |
 
-Observe real-time status updates and failure alerts.
-
-Use analytics and failure management tools to supervise the warehouse.
-
-MQTT Topics Used
-Topic	Purpose
-warehouse/command	Commands to control deployer
-warehouse/status	Status updates from deployer
-warehouse/failures	Failure notifications
-warehouse/analytics	Analytics data
-
-Contributing
-Feel free to fork this project, open issues, or submit pull requests to improve functionality, add new features, or fix bugs.
-
-Contact
+## Contact
 For questions or further information, contact:
 
 António Alves
