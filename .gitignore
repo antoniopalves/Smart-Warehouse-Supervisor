@@ -1,0 +1,21 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Prolog
+*.qlf
+*.xwam
+
+# Logs
+*.log
+
+# VSCode and IDEs
+.vscode/
+.idea/
+
+# Build and dependencies
+__pycache__/
+node_modules/
+
+# Windows metadata
+desktop.ini
