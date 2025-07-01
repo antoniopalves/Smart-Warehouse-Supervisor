@@ -1,0 +1,17 @@
+:-ensure_loaded('RTXengine/RTXutil').
+
+% DLL/foreign predicates, to suppress the warning
+:- dynamic mqtt_connect/2.
+:- dynamic mqtt_create_client/3.
+:- dynamic mqtt_subscribe/4.
+:- dynamic mqtt_publish/5.
+
+:-dynamic state/2. % to represent state(x_is_at(2), 133223).
+
+:-dynamic before/3. % represent before(x_is_at(2),  133223,  133250).
+
+:-dynamic command/2. % to represent command(move_x_left, 213123).
+
+:-dynamic goal/2.  % to represent goal(x_is_at(2), 33133).
+
+

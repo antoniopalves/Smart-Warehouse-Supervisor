@@ -1,0 +1,7 @@
+C:\si\serverapp\localControl.cpp;C:\si\serverapp\x64\Debug\localControl.obj
+C:\si\serverapp\serverApp.cpp;C:\si\serverapp\x64\Debug\serverApp.obj
+C:\si\serverapp\source\mongoose.c;C:\si\serverapp\x64\Debug\mongoose.obj
+C:\si\serverapp\source\MqttClientManager.cpp;C:\si\serverapp\x64\Debug\MqttClientManager.obj
+C:\si\serverapp\source\MQTT_client.cpp;C:\si\serverapp\x64\Debug\MQTT_client.obj
+C:\si\serverapp\source\niDAQWebInterface.cpp;C:\si\serverapp\x64\Debug\niDAQWebInterface.obj
+C:\si\serverapp\source\warehouseWebServer.cpp;C:\si\serverapp\x64\Debug\warehouseWebServer.obj

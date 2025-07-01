@@ -1,0 +1,16 @@
+﻿  localControl.cpp
+  serverApp.cpp
+  MqttClientManager.cpp
+  MQTT_client.cpp
+C:\si\serverapp\source\MQTT_client.cpp(200,19): warning C4244: 'inicializando': conversão de 'float' para 'int', possível perda de dados
+C:\si\serverapp\source\MQTT_client.cpp(228,77): warning C4805: '!=': mistura não segura de tipo 'bool' e tipo 'int' em operação
+C:\si\serverapp\source\MQTT_client.cpp(252,77): warning C4805: '!=': mistura não segura de tipo 'bool' e tipo 'int' em operação
+  niDAQWebInterface.cpp
+  warehouseWebServer.cpp
+  Gerando Código...
+  mongoose.c
+C:\si\serverapp\source\mongoose.c(2921,37): warning C4267: 'função': conversão de 'size_t' para 'int', possível perda de dados
+C:\si\serverapp\source\mongoose.c(2923,35): warning C4267: 'função': conversão de 'size_t' para 'int', possível perda de dados
+C:\si\serverapp\source\mongoose.c(3011,39): warning C4267: 'função': conversão de 'size_t' para 'int', possível perda de dados
+C:\si\serverapp\source\mongoose.c(3024,35): warning C4267: 'função': conversão de 'size_t' para 'int', possível perda de dados
+  serverApp.vcxproj -> C:\si\serverapp\x64\Debug\serverApp.exe
