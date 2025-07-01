@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**Supervisão Inteligente** is an intelligent warehouse supervision system developed as a university project. It simulates a warehouse environment with automated control and monitoring of a deployer robot using MQTT communication.
+**Smart Warehouse Supervisor** is an intelligent warehouse supervision system developed as a university project. It simulates a warehouse environment with automated control and monitoring of a deployer robot using MQTT communication.
 
 The system includes logic for failure detection and management implemented in Prolog, alongside a real-time web interface to monitor statuses, manage failures, and control warehouse operations.
 
